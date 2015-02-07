@@ -12,7 +12,7 @@
         <Rectangle Fill="#FF2D2D30" Height="94" VerticalAlignment="Top"/>
 
         <Button x:Name="btnMenu" Content="≡" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="77" Width="21" BorderBrush="{x:Null}" RequestedTheme="Dark" ToolTipService.ToolTip="Menu" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Steps Counter" VerticalAlignment="Top" Height="41" Width="278" FontSize="36" RequestedTheme="Dark"/>
+        <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Steps Counter" Width="278" FontSize="36" RequestedTheme="Dark" Height="41" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
