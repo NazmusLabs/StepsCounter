@@ -8,7 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="#FF252526" RequestedTheme="Dark">
+        <Button x:Name="btnMenu" Content="≡" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="68" Width="21" BorderBrush="{x:Null}" RequestedTheme="Dark" ToolTipService.ToolTip="Menu" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Steps Counter" VerticalAlignment="Top" Height="41" Width="278" FontSize="36" RequestedTheme="Dark"/>
 
     </Grid>
 </Page>
