@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#FFC8C8C8">
+    <Grid Background="#FFC8C8C8" RequestedTheme="Light">
 
         <Rectangle Height="94" VerticalAlignment="Top">
             <Rectangle.Fill>
@@ -26,9 +26,9 @@
         <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Menu" Width="278" FontSize="36" RequestedTheme="Dark" Height="41" VerticalAlignment="Top"/>
         <ListBox Margin="-2,92,2,88" Background="{x:Null}" RequestedTheme="Dark">
             <Button x:Name="mnuStepsCounter" BorderBrush="{x:Null}" Content="Steps Counter" FontSize="28" RequestedTheme="Light" Click="mnuStepsCounter_Click" VerticalAlignment="Center"/>
-            <Button BorderBrush="{x:Null}" Content="Saved Data" FontSize="28" RequestedTheme="Light"/>
-            <Button BorderBrush="{x:Null}" Content="Setings" FontSize="28" RequestedTheme="Light"/>
-            <Button BorderBrush="{x:Null}" Content="About" FontSize="28" RequestedTheme="Light"/>
+            <Button BorderBrush="{x:Null}" Content="Saved Data" FontSize="28" RequestedTheme="Light" Click="Button_Click_2"/>
+            <Button BorderBrush="{x:Null}" Content="Setings" FontSize="28" RequestedTheme="Light" Click="Button_Click"/>
+            <Button BorderBrush="{x:Null}" Content="About" FontSize="28" RequestedTheme="Light" Click="Button_Click_1"/>
         </ListBox>
 
     </Grid>

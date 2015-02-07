@@ -46,11 +46,20 @@
     <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\AboutPage.xbf">
+      <PackagePath>AboutPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\MenuPage.xbf">
       <PackagePath>MenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\SavedDataPage.xbf">
+      <PackagePath>SavedDataPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\SettingsPage.xbf">
+      <PackagePath>SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\bin\Debug\StepsCounter.xr.xml">
       <PackagePath>StepsCounter.xr.xml</PackagePath>

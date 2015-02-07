@@ -20,9 +20,9 @@ namespace StepsCounter
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MenuPage : Page
+    public sealed partial class SavedDataPage : Page
     {
-        public MenuPage()
+        public SavedDataPage()
         {
             this.InitializeComponent();
         }
@@ -38,27 +38,7 @@ namespace StepsCounter
 
         private void btnMenu_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.GoBack();
-        }
-
-        private void mnuStepsCounter_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(MainPage));
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(SettingsPage));
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(AboutPage));
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(SavedDataPage));
+            this.Frame.Navigate(typeof(MenuPage));
         }
     }
 }
