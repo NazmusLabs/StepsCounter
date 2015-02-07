@@ -1,1 +1,1 @@
-c:\users\nazmusshakib\documents\visual studio 2013\Projects\StepsCounter\StepsCounter\StepsCounter.csproj;neutral
+C:\Users\NazmusShakib\Documents\Visual Studio 2013\Projects\StepsCounter\StepsCounter\StepsCounter.csproj;neutral

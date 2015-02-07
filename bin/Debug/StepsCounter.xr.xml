@@ -45,7 +45,6 @@
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
-      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
