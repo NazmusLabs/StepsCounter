@@ -9,6 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="#FFC8C8C8" RequestedTheme="Light">
+        <Ellipse x:Name="btnStart" Margin="89,166,0,0" Height="219" VerticalAlignment="Top" HorizontalAlignment="Left" Width="219" Tapped="btnStart_Tapped" Fill="#FF4288EF"/>
+
         <Rectangle Height="94" VerticalAlignment="Top">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -23,9 +25,8 @@
 
         <Button x:Name="btnMenu" Content="≡" HorizontalAlignment="Left" Margin="-2,12,0,0" VerticalAlignment="Top" Height="77" Width="21" BorderBrush="{x:Null}" RequestedTheme="Dark" ToolTipService.ToolTip="Menu" FontSize="36" Click="btnMenu_Click" ClickMode="Press"/>
         <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Steps Counter" Width="278" FontSize="36" RequestedTheme="Dark" Height="41" VerticalAlignment="Top"/>
-        <Ellipse Fill="{ThemeResource ButtonPressedBackgroundThemeBrush}" Margin="91,244,0,0" Height="219" VerticalAlignment="Top" HorizontalAlignment="Left" Width="219"/>
-        <TextBlock Margin="151,327,0,0" TextWrapping="Wrap" Text="Start" Foreground="White" FontSize="48" HorizontalAlignment="Left" Width="124" Height="58" VerticalAlignment="Top"/>
-        <ListBox x:Name="SensorcoreList" HorizontalAlignment="Left" Height="93" Margin="45,496,0,0" VerticalAlignment="Top" Width="303" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBlock Margin="149,245,0,0" TextWrapping="Wrap" Text="Start" Foreground="White" FontSize="48" HorizontalAlignment="Left" Width="124" Height="58" VerticalAlignment="Top"/>
+        <ListBox x:Name="SensorcoreList" Margin="18,420,24,9" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="24"/>
 
     </Grid>
 </Page>

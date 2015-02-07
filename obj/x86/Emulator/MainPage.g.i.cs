@@ -19,6 +19,8 @@ namespace StepsCounter
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.TextBlock txtTitle; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Shapes.Ellipse btnStart; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.ListBox SensorcoreList; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private bool _contentLoaded;
@@ -35,6 +37,7 @@ namespace StepsCounter
  
             btnMenu = (global::Windows.UI.Xaml.Controls.Button)this.FindName("btnMenu");
             txtTitle = (global::Windows.UI.Xaml.Controls.TextBlock)this.FindName("txtTitle");
+            btnStart = (global::Windows.UI.Xaml.Shapes.Ellipse)this.FindName("btnStart");
             SensorcoreList = (global::Windows.UI.Xaml.Controls.ListBox)this.FindName("SensorcoreList");
         }
     }
