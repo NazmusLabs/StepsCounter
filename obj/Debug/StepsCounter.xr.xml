@@ -13,9 +13,9 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
-      <RootProperty Name="Fill" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -27,6 +27,9 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="ClickMode" />
+      <RootProperty Name="Foreground" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
       <RootMethod Name="GetToolTip" />
@@ -42,8 +45,31 @@
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
+      <RootProperty Name="EndPoint" />
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="RelativeTransform" />
+      <RootProperty Name="GradientStops" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="CenterY" />
+      <RootProperty Name="CenterX" />
+      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Offset" />
+    </RootType>
     <RootType FullName="StepsCounter.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="StepsCounter.MenuPage" />
   </Roots.RootTypes>
 </Roots>

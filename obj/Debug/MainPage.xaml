@@ -8,10 +8,20 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#FF252526" RequestedTheme="Dark">
-        <Rectangle Fill="#FF2D2D30" Height="94" VerticalAlignment="Top"/>
+    <Grid Background="#FFC8C8C8" RequestedTheme="Dark">
+        <Rectangle Height="94" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <CompositeTransform CenterY="0.5" CenterX="0.5" Rotation="270"/>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF2D2D30" Offset="0"/>
+                    <GradientStop Color="#FF1C1C1C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
 
-        <Button x:Name="btnMenu" Content="≡" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="77" Width="21" BorderBrush="{x:Null}" RequestedTheme="Dark" ToolTipService.ToolTip="Menu" FontSize="36"/>
+        <Button x:ConnectionId='1' x:Name="btnMenu" Content="≡" HorizontalAlignment="Left" Margin="-2,12,0,0" VerticalAlignment="Top" Height="77" Width="21" BorderBrush="{x:Null}" RequestedTheme="Dark" ToolTipService.ToolTip="Menu" FontSize="36"                       ClickMode="Press"/>
         <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Steps Counter" Width="278" FontSize="36" RequestedTheme="Dark" Height="41" VerticalAlignment="Top"/>
 
     </Grid>

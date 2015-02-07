@@ -38,7 +38,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2013" />
     <build:Item Name="OperatingSystem" Version="10.0.9926.0 (fbl_awesome1501.150119-1648)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.31101.0" />
-    <build:Item Name="ProjectGUID" Value="{3a801359-ce57-4238-a257-755a15cc2c5f}" />
+    <build:Item Name="ProjectGUID" Value="{3A801359-CE57-4238-A257-755A15CC2C5F}" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
     <build:Item Name="MakePri.exe" Version="6.3.9600.17298 (winblue.141024-1500)" />
   </build:Metadata>
