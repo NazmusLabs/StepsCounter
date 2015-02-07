@@ -23,6 +23,8 @@
 
         <Button x:ConnectionId='1' x:Name="btnMenu" Content="≡" HorizontalAlignment="Left" Margin="-2,12,0,0" VerticalAlignment="Top" Height="77" Width="21" BorderBrush="{x:Null}" RequestedTheme="Dark" ToolTipService.ToolTip="Menu" FontSize="36"                       ClickMode="Press"/>
         <TextBlock x:Name="txtTitle" HorizontalAlignment="Left" Margin="112,31,0,0" TextWrapping="Wrap" Text="Steps Counter" Width="278" FontSize="36" RequestedTheme="Dark" Height="41" VerticalAlignment="Top"/>
+        <Ellipse Fill="{ThemeResource ButtonPressedBackgroundThemeBrush}" Margin="91,244,0,0" Height="219" VerticalAlignment="Top" HorizontalAlignment="Left" Width="219"/>
+        <TextBlock Margin="151,327,0,0" TextWrapping="Wrap" Text="Start" Foreground="White" FontSize="48" HorizontalAlignment="Left" Width="124" Height="58" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
